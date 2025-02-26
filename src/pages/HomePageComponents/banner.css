@@ -1,0 +1,39 @@
+.holder {
+  background-color: yellowgreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame {
+  display: flex;
+}
+.slider {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.arrow-left {
+  height: 50px;
+  cursor: pointer;
+}
+.arrow-right {
+  height: 50px;
+  cursor: pointer;
+  transform: rotate(180deg);
+}
+.actual-photo {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.final-level {
+  display: flex;
+  height: 405px;
+  width: 1296px;
+  overflow: scroll;
+  box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.75);
+}
+.hello {
+  transform: rotate(180deg);
+}
